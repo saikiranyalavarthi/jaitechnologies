@@ -9,6 +9,9 @@ import LaptopSolutions from "./components/LaptopSolutions";
 import WhyWeAreBest from "./components/WhyWeAreBest";
 import QuoteFormWithContact from "./components/QuoteFormWithContact";
 import HeroSection from "./components/HeroSection";
+import WhyChooseUsFeatures from "./components/WhyChooseUsFeatures";
+import BrandsSection from "./components/BrandsSection";
+import AnimatedServices from "./components/AnimatedServices";
 
 export default function Home() {
   return (
@@ -30,7 +33,11 @@ export default function Home() {
       <CallNowBanner />
       <LaptopSolutions />
       <WhyWeAreBest />
+      <AnimatedServices />
       <QuoteFormWithContact />
+      <BrandsSection />
+      <WhyChooseUsFeatures />
+
       {/* Contact Section */}
 
       {/* Footer */}
