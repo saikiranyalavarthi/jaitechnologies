@@ -2,18 +2,18 @@
 import Image from "next/image";
 
 const brands = [
-  { name: "Acer", src: "/brands/brand1.jpg" },
-  { name: "Apple", src: "/brands/brand2.jpg" },
-  { name: "Asus", src: "/brands/brand3.jpg" },
-  { name: "Compaq", src: "/brands/brand4.jpg" },
-  { name: "HP", src: "/brands/brand5.jpg" },
-  { name: "Gateway", src: "/brands/brand6.jpg" },
-  { name: "Dell", src: "/brands/brand7.jpg" },
-  { name: "Fujitsu", src: "/brands/brand8.jpg" },
-  { name: "Lenovo", src: "/brands/brand9.jpg" },
-  { name: "LG", src: "/brands/brand10.jpg" },
-  { name: "Samsung", src: "/brands/brand11.jpg" },
-  { name: "Sony", src: "/brands/brand12.jpg" },
+  { name: "Acer", src: "/assets/image10.jpg" },
+  { name: "Apple", src: "/assets/image11.jpg" },
+  { name: "Asus", src: "/assets/image12.jpg" },
+  { name: "Compaq", src: "/assets/image13.jpg" },
+  { name: "HP", src: "/assets/image14.jpg" },
+  { name: "Gateway", src: "/assets/image15.jpg" },
+  { name: "Dell", src: "/assets/image16.jpg" },
+  { name: "Fujitsu", src: "/assets/image17.jpg" },
+  { name: "Lenovo", src: "/assets/image18.jpg" },
+  { name: "LG", src: "/assets/image19.jpg" },
+  { name: "Samsung", src: "/assets/image20.jpg" },
+  { name: "Sony", src: "/assets/image21.jpg" },
 ];
 export default function BrandsSection() {
   return (
