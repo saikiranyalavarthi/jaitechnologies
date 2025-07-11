@@ -18,6 +18,9 @@ export default function Navbar() {
 
         {/* Desktop Nav */}
         <div className="hidden md:flex gap-6 text-sm font-medium text-gray-700">
+          <Link href="/" className="block hover:text-blue-600 transition">
+            Home
+          </Link>
           <Link href="/about" className="hover:text-blue-600 transition">
             About
           </Link>
@@ -47,6 +50,10 @@ export default function Navbar() {
       {/* Mobile Menu Dropdown */}
       {menuOpen && (
         <div className="md:hidden px-6 pb-4 space-y-2 text-sm font-medium text-gray-700 bg-white shadow-sm border-t">
+          <Link href="/" className="block hover:text-blue-600 transition">
+            Home
+          </Link>
+
           <Link href="/about" className="block hover:text-blue-600 transition">
             About
           </Link>

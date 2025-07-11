@@ -12,6 +12,7 @@ import HeroSection from "./components/HeroSection";
 import WhyChooseUsFeatures from "./components/WhyChooseUsFeatures";
 import BrandsSection from "./components/BrandsSection";
 import AnimatedServices from "./components/AnimatedServices";
+import AimSection from "./components/AimSection";
 
 export default function Home() {
   return (
@@ -36,6 +37,7 @@ export default function Home() {
       <AnimatedServices />
       <QuoteFormWithContact />
       <BrandsSection />
+      <AimSection />
       <WhyChooseUsFeatures />
 
       {/* Contact Section */}
